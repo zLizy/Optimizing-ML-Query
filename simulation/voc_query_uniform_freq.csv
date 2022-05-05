@@ -1,0 +1,11 @@
+,query,#predicate,form,#&,#|,#(),ratio_&,ratio_|
+0,(chair | car),2,DNF,0,1,1,0.0,1.0
+1,(person & car),2,CNF,1,0,1,1.0,0.0
+2,(bottle | tv) & chair,3,CNF,1,1,1,0.5,0.5
+3,(person | dog) & (dining_table | couch),4,CNF,1,2,2,0.3333,0.6667
+4,person & (bottle | chair) & (dining_table | couch),5,CNF,2,2,2,0.5,0.5
+5,(bottle | chair) & (dog | person) & (couch | dining_table),6,CNF,2,3,3,0.4,0.6
+6,(tv & bottle) | dining_table,3,DNF,1,1,1,0.5,0.5
+7,(chair & dining_table) | (person & tv),4,DNF,2,1,2,0.6667,0.3333
+8,bottle | (dining_table & couch) | (person & chair),5,DNF,2,2,2,0.5,0.5
+9,(couch & potted_plant) | (person & dog) | (chair & dining_table),6,DNF,3,2,3,0.6,0.4

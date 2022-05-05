@@ -1,4 +1,4 @@
-*.csv
+# *.csv
 *.sql
 
 output/*
@@ -7,7 +7,7 @@ logs/*
 iis/
 /.ipynb_checkpoints
 
-baselines/baseline_c_accuracy_*
+# baselines/baseline_c_accuracy_*
 
 repository/plots
 repository/previous

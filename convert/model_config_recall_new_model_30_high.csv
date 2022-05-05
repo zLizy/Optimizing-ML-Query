@@ -1,0 +1,166 @@
+,index,model,root,type,latency,probability,cost,#task,tasks
+0,1,yolov3,ultralytics/yolov3,OD,45,0.76,39,12,airplane bench dog sheep zebra backpack handbag knife tv laptop keyboard toothbrush
+1,2,yolov3,ultralytics/yolov3,OD,48,0.764,39,8,bird bear suitcase skateboard apple dining_table remote clock
+2,3,yolov3,ultralytics/yolov3,OD,1,0.7,39,14,person traffic_light fire_hydrant frisbee snowboard sports_ball baseball_bat cup knife potted_plant dining_table remote oven scissors
+3,4,yolov3,ultralytics/yolov3,OD,4,0.705,39,10,dog elephant tie wine_glass fork banana cell_phone sink scissors teddy_bear
+4,5,yolov3,ultralytics/yolov3,OD,4,0.705,39,14,elephant umbrella tie suitcase sports_ball kite baseball_glove tennis_racket bottle apple sandwich chair toaster refrigerator
+5,6,yolov5x,ultralytics/yolov5,OD,40,0.821,101,17,motorcycle bird sheep elephant frisbee tennis_racket bottle spoon apple pizza couch bed toilet mouse microwave scissors toothbrush
+6,7,yolov5x,ultralytics/yolov5,OD,10,0.7909999999999999,101,13,car traffic_light bench bear zebra handbag skateboard spoon banana mouse cell_phone microwave book
+7,8,yolov5x,ultralytics/yolov5,OD,20,0.802,101,17,bicycle train boat cat dog umbrella handbag tie skis kite baseball_bat skateboard spoon bowl pizza cell_phone toaster
+8,9,yolov5x,ultralytics/yolov5,OD,22,0.804,101,10,bus traffic_light horse cow handbag frisbee skateboard knife donut cell_phone
+9,10,yolov5x,ultralytics/yolov5,OD,37,0.818,101,11,traffic_light parking_meter bird cow backpack handbag frisbee baseball_bat skateboard chair clock
+10,11,yolov5x6,ultralytics/yolov5,OD,24,0.7809999999999999,78,18,person motorcycle traffic_light fire_hydrant dog cow umbrella frisbee hot_dog donut cake chair couch toilet keyboard toaster vase scissors
+11,12,yolov5x6,ultralytics/yolov5,OD,7,0.762,78,13,truck bear giraffe umbrella tie potted_plant toilet tv mouse remote vase teddy_bear hair_drier
+12,13,yolov5x6,ultralytics/yolov5,OD,25,0.782,78,16,bicycle motorcycle truck sheep elephant zebra backpack kite bottle bowl donut mouse cell_phone microwave clock scissors
+13,14,yolov5x6,ultralytics/yolov5,OD,25,0.782,78,14,car stop_sign parking_meter cow suitcase baseball_glove sandwich pizza donut cake toilet tv keyboard scissors
+14,15,yolov5x6,ultralytics/yolov5,OD,13,0.769,78,16,bus boat traffic_light cat backpack baseball_bat tennis_racket bottle wine_glass donut chair couch mouse keyboard microwave oven
+15,16,yolov5m6,ultralytics/yolov5,OD,2,0.7240000000000001,54,16,person car cow zebra suitcase frisbee skis snowboard skateboard bottle cup fork bowl potted_plant bed microwave
+16,17,yolov5m6,ultralytics/yolov5,OD,39,0.7709999999999999,54,8,truck fire_hydrant cow surfboard tennis_racket apple pizza couch
+17,18,yolov5m6,ultralytics/yolov5,OD,40,0.772,54,12,fire_hydrant bench horse sheep skis snowboard orange donut sink refrigerator scissors toothbrush
+18,19,yolov5m6,ultralytics/yolov5,OD,24,0.753,54,9,car airplane parking_meter zebra bottle wine_glass orange couch sink
+19,20,yolov5m6,ultralytics/yolov5,OD,47,0.78,54,13,person car boat sheep elephant giraffe backpack frisbee cup orange carrot laptop book
+20,21,nvidia_ssd,NVIDIA/DeepLearningExamples:torchhub,OD,25,0.8029999999999999,97,11,stop_sign frisbee banana sandwich broccoli cake bed toilet toaster book vase
+21,22,nvidia_ssd,NVIDIA/DeepLearningExamples:torchhub,OD,18,0.795,97,14,bus boat traffic_light stop_sign cat kite baseball_bat surfboard bottle potted_plant tv microwave sink vase
+22,23,nvidia_ssd,NVIDIA/DeepLearningExamples:torchhub,OD,38,0.815,97,8,person bus dog horse zebra broccoli cake remote
+23,24,nvidia_ssd,NVIDIA/DeepLearningExamples:torchhub,OD,26,0.804,97,16,person airplane boat bench bear zebra giraffe fork pizza donut cake dining_table toilet tv remote scissors
+24,25,nvidia_ssd,NVIDIA/DeepLearningExamples:torchhub,OD,14,0.7909999999999999,97,16,bus boat fire_hydrant parking_meter bench bird handbag suitcase sports_ball skateboard tennis_racket cup apple pizza mouse clock
+25,26,fcn_resnet50,pytorch/vision:v0.10.0,Seg,9,0.7290000000000001,51,9,truck fire_hydrant sheep cow zebra tie cake book toothbrush
+26,27,fcn_resnet50,pytorch/vision:v0.10.0,Seg,10,0.731,51,18,car train traffic_light fire_hydrant bird horse handbag baseball_glove tennis_racket fork apple carrot donut cake laptop microwave vase scissors
+27,28,fcn_resnet50,pytorch/vision:v0.10.0,Seg,21,0.745,51,17,person airplane traffic_light fire_hydrant cat cow elephant bear sports_ball cup orange donut couch dining_table toilet cell_phone teddy_bear
+28,29,fcn_resnet50,pytorch/vision:v0.10.0,Seg,17,0.74,51,17,bicycle truck bear suitcase sports_ball surfboard bottle spoon broccoli carrot donut cake potted_plant toilet tv remote refrigerator
+29,30,fcn_resnet50,pytorch/vision:v0.10.0,Seg,6,0.725,51,14,bus train tie suitcase snowboard kite tennis_racket wine_glass knife cell_phone sink refrigerator book hair_drier
+30,31,fcn_resnet101,pytorch/vision:v0.10.0,Seg,16,0.843,151,14,person bicycle car bird cat sheep backpack handbag frisbee skis baseball_glove bowl orange toothbrush
+31,32,fcn_resnet101,pytorch/vision:v0.10.0,Seg,48,0.867,151,12,bicycle car bus cat dog bear giraffe suitcase tennis_racket pizza dining_table mouse
+32,33,fcn_resnet101,pytorch/vision:v0.10.0,Seg,1,0.831,151,13,bicycle parking_meter dog elephant backpack tie skis surfboard knife laptop refrigerator vase hair_drier
+33,34,fcn_resnet101,pytorch/vision:v0.10.0,Seg,19,0.845,151,12,fire_hydrant bird dog suitcase frisbee wine_glass bowl orange laptop clock vase hair_drier
+34,35,fcn_resnet101,pytorch/vision:v0.10.0,Seg,36,0.858,151,15,fire_hydrant stop_sign parking_meter bench bear giraffe sports_ball baseball_glove couch potted_plant bed laptop toaster sink scissors
+35,36,deeplabv3_resnet50,pytorch/vision:v0.10.0,Seg,25,0.769,66,18,train stop_sign cow elephant giraffe backpack kite bottle cup fork spoon hot_dog donut dining_table laptop mouse remote cell_phone
+36,37,deeplabv3_resnet50,pytorch/vision:v0.10.0,Seg,30,0.775,66,9,dog zebra frisbee skis spoon bowl carrot mouse scissors
+37,38,deeplabv3_resnet50,pytorch/vision:v0.10.0,Seg,20,0.763,66,12,boat cat horse bear giraffe tie orange couch potted_plant tv toaster toothbrush
+38,39,deeplabv3_resnet50,pytorch/vision:v0.10.0,Seg,20,0.763,66,19,person bicycle airplane bus train cat giraffe frisbee snowboard tennis_racket cup apple carrot couch bed dining_table tv toaster toothbrush
+39,40,deeplabv3_resnet50,pytorch/vision:v0.10.0,Seg,15,0.757,66,7,fire_hydrant stop_sign baseball_glove skateboard chair bed vase
+40,41,deeplabv3_resnet101,pytorch/vision:v0.10.0,Seg,40,0.795,75,11,parking_meter cow giraffe suitcase kite sandwich donut cake laptop microwave hair_drier
+41,42,deeplabv3_resnet101,pytorch/vision:v0.10.0,Seg,33,0.7879999999999999,75,22,train traffic_light bench bird horse cow giraffe handbag snowboard wine_glass bowl sandwich orange carrot donut cake couch cell_phone oven sink book toothbrush
+42,43,deeplabv3_resnet101,pytorch/vision:v0.10.0,Seg,2,0.752,75,15,person train parking_meter bird zebra giraffe tie kite surfboard cup pizza tv microwave sink refrigerator
+43,44,deeplabv3_resnet101,pytorch/vision:v0.10.0,Seg,10,0.762,75,13,stop_sign sheep backpack umbrella frisbee wine_glass cup banana broccoli laptop keyboard microwave toaster
+44,45,deeplabv3_resnet101,pytorch/vision:v0.10.0,Seg,33,0.7879999999999999,75,11,bus boat bird elephant snowboard spoon dining_table keyboard oven refrigerator book
+45,46,deeplabv3_mobilenet_v3_large,pytorch/vision:v0.10.0,Seg,32,0.86,157,18,traffic_light stop_sign horse elephant zebra kite baseball_bat skateboard surfboard tennis_racket apple sandwich hot_dog pizza chair toilet book hair_drier
+46,47,deeplabv3_mobilenet_v3_large,pytorch/vision:v0.10.0,Seg,11,0.8440000000000001,157,8,dog baseball_bat skateboard tennis_racket banana laptop toaster clock
+47,48,deeplabv3_mobilenet_v3_large,pytorch/vision:v0.10.0,Seg,24,0.8540000000000001,157,18,person motorcycle airplane train parking_meter bird cat horse frisbee baseball_bat surfboard banana broccoli carrot cake tv sink book
+48,49,deeplabv3_mobilenet_v3_large,pytorch/vision:v0.10.0,Seg,36,0.863,157,12,stop_sign parking_meter horse snowboard wine_glass apple carrot donut toilet oven refrigerator book
+49,50,deeplabv3_mobilenet_v3_large,pytorch/vision:v0.10.0,Seg,12,0.845,157,15,bicycle parking_meter sheep elephant bear snowboard sports_ball skateboard tennis_racket cup toilet oven sink hair_drier toothbrush
+50,51,faster_rcnn_R_101_C4_3x,COCO-Detection,detr2,29,0.7190000000000001,24,8,train tie tennis_racket bottle knife apple microwave hair_drier
+51,52,faster_rcnn_R_101_C4_3x,COCO-Detection,detr2,35,0.728,24,16,person airplane traffic_light parking_meter zebra frisbee snowboard baseball_bat bottle carrot chair microwave toaster vase scissors hair_drier
+52,53,faster_rcnn_R_101_C4_3x,COCO-Detection,detr2,1,0.6759999999999999,24,12,motorcycle boat traffic_light backpack umbrella baseball_glove cup carrot dining_table toilet refrigerator book
+53,54,faster_rcnn_R_101_C4_3x,COCO-Detection,detr2,1,0.6759999999999999,24,13,traffic_light bird cat elephant baseball_bat baseball_glove hot_dog couch tv microwave toaster sink teddy_bear
+54,55,faster_rcnn_R_101_C4_3x,COCO-Detection,detr2,37,0.731,24,16,motorcycle train parking_meter bench horse bear handbag sports_ball kite baseball_glove surfboard cup banana sink book vase
+55,56,faster_rcnn_R_101_DC5_3x,COCO-Detection,detr2,6,0.745,66,8,bicycle giraffe skis banana hot_dog donut cake book
+56,57,faster_rcnn_R_101_DC5_3x,COCO-Detection,detr2,39,0.785,66,22,train stop_sign bird dog sheep cow zebra umbrella suitcase sports_ball baseball_glove bottle cup knife spoon apple broccoli cake chair dining_table toaster clock
+57,58,faster_rcnn_R_101_DC5_3x,COCO-Detection,detr2,41,0.787,66,18,traffic_light cow giraffe backpack umbrella knife spoon apple donut couch bed mouse keyboard cell_phone toaster refrigerator hair_drier toothbrush
+58,59,faster_rcnn_R_101_DC5_3x,COCO-Detection,detr2,18,0.76,66,17,fire_hydrant bench cat horse handbag skis snowboard kite skateboard tennis_racket fork banana sandwich microwave toaster refrigerator teddy_bear
+59,60,faster_rcnn_R_101_DC5_3x,COCO-Detection,detr2,16,0.758,66,11,person car motorcycle train giraffe sports_ball baseball_glove surfboard knife bed sink
+60,61,faster_rcnn_R_101_FPN_3x,COCO-Detection,detr2,5,0.836,153,12,bus truck zebra umbrella baseball_bat baseball_glove bottle knife orange broccoli toaster book
+61,62,faster_rcnn_R_101_FPN_3x,COCO-Detection,detr2,42,0.8640000000000001,153,11,car train umbrella tie baseball_bat bottle fork spoon bowl couch refrigerator
+62,63,faster_rcnn_R_101_FPN_3x,COCO-Detection,detr2,43,0.865,153,13,person motorcycle fire_hydrant dog sheep bowl banana sandwich hot_dog cake chair toilet sink
+63,64,faster_rcnn_R_101_FPN_3x,COCO-Detection,detr2,32,0.857,153,10,fire_hydrant bench horse sheep suitcase wine_glass banana orange oven book
+64,65,faster_rcnn_R_101_FPN_3x,COCO-Detection,detr2,2,0.833,153,11,bus truck boat bench zebra snowboard banana orange broccoli hot_dog oven
+65,66,faster_rcnn_R_50_C4_1x,COCO-Detection,detr2,2,0.779,98,13,truck traffic_light stop_sign bird bear tie frisbee skateboard knife potted_plant keyboard cell_phone toothbrush
+66,67,faster_rcnn_R_50_C4_1x,COCO-Detection,detr2,40,0.818,98,13,bench dog zebra tie baseball_bat knife banana orange broccoli pizza chair couch teddy_bear
+67,68,faster_rcnn_R_50_C4_1x,COCO-Detection,detr2,42,0.82,98,13,bus fire_hydrant cat dog umbrella suitcase wine_glass knife banana potted_plant toilet remote keyboard
+68,69,faster_rcnn_R_50_C4_1x,COCO-Detection,detr2,36,0.8140000000000001,98,17,person car motorcycle train truck traffic_light bird handbag snowboard kite bottle apple pizza oven refrigerator book scissors
+69,70,faster_rcnn_R_50_C4_1x,COCO-Detection,detr2,39,0.8170000000000001,98,15,bicycle airplane bus truck fire_hydrant elephant backpack skis baseball_bat baseball_glove wine_glass orange hot_dog keyboard refrigerator
+70,71,faster_rcnn_R_50_C4_3x,COCO-Detection,detr2,12,0.747,61,7,car cat backpack kite baseball_bat bottle hot_dog
+71,72,faster_rcnn_R_50_C4_3x,COCO-Detection,detr2,47,0.7879999999999999,61,9,person traffic_light cat tie cup bowl pizza oven clock
+72,73,faster_rcnn_R_50_C4_3x,COCO-Detection,detr2,19,0.755,61,12,airplane fire_hydrant stop_sign cat cup bowl apple donut mouse keyboard toaster book
+73,74,faster_rcnn_R_50_C4_3x,COCO-Detection,detr2,28,0.7659999999999999,61,17,bicycle car bird sheep elephant handbag frisbee sports_ball baseball_glove bottle bowl broccoli donut potted_plant laptop keyboard microwave
+74,75,faster_rcnn_R_50_C4_3x,COCO-Detection,detr2,1,0.732,61,12,bicycle car airplane train kite knife sandwich hot_dog tv refrigerator scissors teddy_bear
+75,76,faster_rcnn_R_50_DC5_1x,COCO-Detection,detr2,15,0.782,88,14,bicycle train traffic_light stop_sign bird dog banana apple sandwich broccoli hot_dog chair mouse book
+76,77,faster_rcnn_R_50_DC5_1x,COCO-Detection,detr2,36,0.805,88,14,truck fire_hydrant elephant giraffe handbag suitcase snowboard surfboard orange carrot pizza donut tv keyboard
+77,78,faster_rcnn_R_50_DC5_1x,COCO-Detection,detr2,13,0.78,88,10,bicycle truck traffic_light sports_ball tennis_racket bowl hot_dog potted_plant toilet hair_drier
+78,79,faster_rcnn_R_50_DC5_1x,COCO-Detection,detr2,43,0.8109999999999999,88,8,car giraffe backpack sports_ball broccoli chair clock hair_drier
+79,80,faster_rcnn_R_50_DC5_1x,COCO-Detection,detr2,21,0.789,88,16,airplane bus truck cow snowboard skateboard tennis_racket wine_glass fork banana carrot hot_dog chair keyboard oven vase
+80,81,faster_rcnn_R_50_DC5_3x,COCO-Detection,detr2,12,0.7490000000000001,63,13,bird dog sheep bear giraffe frisbee tennis_racket banana apple orange couch remote hair_drier
+81,82,faster_rcnn_R_50_DC5_3x,COCO-Detection,detr2,5,0.74,63,16,bicycle airplane bus cat horse elephant backpack handbag snowboard kite cup spoon hot_dog laptop remote clock
+82,83,faster_rcnn_R_50_DC5_3x,COCO-Detection,detr2,7,0.743,63,12,bus bench bear skis baseball_glove tennis_racket cake toilet mouse keyboard oven vase
+83,84,faster_rcnn_R_50_DC5_3x,COCO-Detection,detr2,5,0.74,63,10,person bicycle motorcycle tie frisbee skis baseball_glove remote oven toaster
+84,85,faster_rcnn_R_50_DC5_3x,COCO-Detection,detr2,48,0.7909999999999999,63,11,sheep elephant sports_ball skateboard knife chair potted_plant dining_table cell_phone clock toothbrush
+85,86,faster_rcnn_R_50_FPN_1x,COCO-Detection,detr2,4,0.764,83,13,car boat fire_hydrant horse snowboard tennis_racket fork knife tv microwave oven book toothbrush
+86,87,faster_rcnn_R_50_FPN_1x,COCO-Detection,detr2,13,0.775,83,8,fire_hydrant dog sheep zebra backpack potted_plant remote toothbrush
+87,88,faster_rcnn_R_50_FPN_1x,COCO-Detection,detr2,37,0.8009999999999999,83,15,motorcycle stop_sign cat zebra surfboard fork banana pizza chair dining_table tv laptop clock vase teddy_bear
+88,89,faster_rcnn_R_50_FPN_1x,COCO-Detection,detr2,41,0.805,83,15,bicycle motorcycle frisbee surfboard spoon couch potted_plant bed toilet mouse cell_phone microwave oven refrigerator clock
+89,90,faster_rcnn_R_50_FPN_1x,COCO-Detection,detr2,15,0.777,83,13,motorcycle fire_hydrant bench bird cow elephant skateboard cup fork potted_plant dining_table cell_phone clock
+90,91,faster_rcnn_R_50_FPN_3x,COCO-Detection,detr2,16,0.799,102,13,truck bench elephant tie suitcase bottle fork sandwich broccoli cake potted_plant bed book
+91,92,faster_rcnn_R_50_FPN_3x,COCO-Detection,detr2,21,0.804,102,8,person car parking_meter backpack suitcase sandwich laptop book
+92,93,faster_rcnn_R_50_FPN_3x,COCO-Detection,detr2,36,0.818,102,7,car airplane bear cup remote cell_phone refrigerator
+93,94,faster_rcnn_R_50_FPN_3x,COCO-Detection,detr2,24,0.807,102,17,person bicycle truck stop_sign bird elephant backpack suitcase snowboard sports_ball kite pizza cake potted_plant laptop cell_phone toothbrush
+94,95,faster_rcnn_R_50_FPN_3x,COCO-Detection,detr2,16,0.799,102,16,person motorcycle zebra handbag surfboard wine_glass spoon apple hot_dog donut potted_plant tv cell_phone clock scissors teddy_bear
+95,96,faster_rcnn_X_101_32x8d_FPN_3x,COCO-Detection,detr2,14,0.81,115,14,traffic_light stop_sign bird cow bear handbag tie bottle apple tv mouse microwave refrigerator hair_drier
+96,97,faster_rcnn_X_101_32x8d_FPN_3x,COCO-Detection,detr2,22,0.8170000000000001,115,11,motorcycle boat horse zebra skis snowboard bottle orange chair bed mouse
+97,98,faster_rcnn_X_101_32x8d_FPN_3x,COCO-Detection,detr2,49,0.841,115,18,boat horse cow giraffe tie sports_ball kite surfboard fork spoon banana orange broccoli potted_plant mouse book clock vase
+98,99,faster_rcnn_X_101_32x8d_FPN_3x,COCO-Detection,detr2,6,0.802,115,11,bicycle boat horse suitcase kite skateboard cup sandwich laptop cell_phone sink
+99,100,faster_rcnn_X_101_32x8d_FPN_3x,COCO-Detection,detr2,42,0.835,115,15,boat traffic_light elephant baseball_bat cup sandwich broccoli cake couch toilet laptop mouse remote refrigerator teddy_bear
+100,101,retinanet_R_101_FPN_3x,COCO-Detection,detr2,36,0.887,196,15,bicycle boat fire_hydrant bear zebra backpack kite tennis_racket banana toilet cell_phone microwave vase scissors teddy_bear
+101,102,retinanet_R_101_FPN_3x,COCO-Detection,detr2,1,0.865,196,13,traffic_light horse bear giraffe tennis_racket fork spoon apple pizza bed toilet microwave clock
+102,103,retinanet_R_101_FPN_3x,COCO-Detection,detr2,32,0.885,196,12,giraffe frisbee sports_ball wine_glass apple carrot laptop remote cell_phone microwave sink clock
+103,104,retinanet_R_101_FPN_3x,COCO-Detection,detr2,6,0.8690000000000001,196,14,bus boat traffic_light cow bear zebra sports_ball wine_glass spoon hot_dog bed mouse keyboard sink
+104,105,retinanet_R_101_FPN_3x,COCO-Detection,detr2,31,0.884,196,16,motorcycle truck fire_hydrant bird cat tie kite surfboard spoon bowl broccoli chair dining_table tv sink hair_drier
+105,106,retinanet_R_50_FPN_1x,COCO-Detection,detr2,1,0.7020000000000001,40,10,bicycle motorcycle bus train giraffe tie bowl carrot dining_table toaster
+106,107,retinanet_R_50_FPN_1x,COCO-Detection,detr2,37,0.752,40,13,stop_sign horse bear giraffe suitcase skis tennis_racket wine_glass keyboard cell_phone oven toaster clock
+107,108,retinanet_R_50_FPN_1x,COCO-Detection,detr2,35,0.7490000000000001,40,14,bus truck boat cat cow elephant snowboard sports_ball cup spoon oven sink book toothbrush
+108,109,retinanet_R_50_FPN_1x,COCO-Detection,detr2,49,0.7659999999999999,40,17,bicycle airplane truck stop_sign dog suitcase frisbee baseball_bat skateboard bottle wine_glass cup bowl donut couch cell_phone teddy_bear
+109,110,retinanet_R_50_FPN_1x,COCO-Detection,detr2,30,0.743,40,11,train dog giraffe surfboard knife spoon banana cake chair vase scissors
+110,111,retinanet_R_50_FPN_3x,COCO-Detection,detr2,4,0.754,75,17,person car airplane truck cow baseball_glove skateboard fork knife orange broccoli pizza cake dining_table toilet teddy_bear hair_drier
+111,112,retinanet_R_50_FPN_3x,COCO-Detection,detr2,35,0.79,75,13,car bench cow bear sports_ball baseball_glove bottle wine_glass knife donut bed remote keyboard
+112,113,retinanet_R_50_FPN_3x,COCO-Detection,detr2,43,0.799,75,13,stop_sign cow umbrella baseball_bat baseball_glove wine_glass bowl banana sandwich orange vase hair_drier toothbrush
+113,114,retinanet_R_50_FPN_3x,COCO-Detection,detr2,14,0.7659999999999999,75,8,motorcycle bus baseball_glove surfboard bowl cake chair bed
+114,115,retinanet_R_50_FPN_3x,COCO-Detection,detr2,49,0.805,75,15,bicycle train boat dog sheep giraffe tennis_racket knife banana potted_plant laptop toaster sink refrigerator hair_drier
+115,116,mask_rcnn_R_50_FPN_3x,COCO-InstanceSegmentation,detr2,40,0.8420000000000001,126,15,person boat parking_meter bench sheep baseball_bat spoon apple broccoli pizza bed remote microwave refrigerator book
+116,117,mask_rcnn_R_50_FPN_3x,COCO-InstanceSegmentation,detr2,22,0.8270000000000001,126,11,bicycle motorcycle train giraffe sports_ball banana apple hot_dog bed remote book
+117,118,mask_rcnn_R_50_FPN_3x,COCO-InstanceSegmentation,detr2,10,0.816,126,15,airplane bench bird giraffe skis snowboard skateboard bowl orange hot_dog couch toilet laptop cell_phone hair_drier
+118,119,mask_rcnn_R_50_FPN_3x,COCO-InstanceSegmentation,detr2,1,0.8079999999999999,126,15,car traffic_light backpack tie frisbee skis snowboard baseball_glove spoon apple carrot pizza potted_plant tv microwave
+119,120,mask_rcnn_R_50_FPN_3x,COCO-InstanceSegmentation,detr2,11,0.8170000000000001,126,10,airplane fire_hydrant bear handbag suitcase hot_dog chair toilet mouse keyboard
+120,121,mask_rcnn_R_101_C4_3x,COCO-InstanceSegmentation,detr2,44,0.764,43,7,motorcycle couch toilet cell_phone vase teddy_bear toothbrush
+121,122,mask_rcnn_R_101_C4_3x,COCO-InstanceSegmentation,detr2,24,0.7390000000000001,43,13,motorcycle train horse baseball_bat skateboard tennis_racket wine_glass knife cake couch dining_table remote refrigerator
+122,123,mask_rcnn_R_101_C4_3x,COCO-InstanceSegmentation,detr2,3,0.7090000000000001,43,17,parking_meter cow bear umbrella handbag frisbee baseball_glove skateboard bottle cup couch potted_plant dining_table laptop oven toaster hair_drier
+123,124,mask_rcnn_R_101_C4_3x,COCO-InstanceSegmentation,detr2,35,0.753,43,18,stop_sign parking_meter bird sheep elephant backpack skis sports_ball wine_glass fork carrot pizza cake chair potted_plant oven clock scissors
+124,125,mask_rcnn_R_101_C4_3x,COCO-InstanceSegmentation,detr2,36,0.754,43,15,airplane bus traffic_light bench cat horse zebra sports_ball tennis_racket sandwich broccoli chair bed remote scissors
+125,126,mask_rcnn_R_101_DC5_3x,COCO-InstanceSegmentation,detr2,31,0.828,118,8,train zebra skateboard apple sandwich dining_table keyboard vase
+126,127,mask_rcnn_R_101_DC5_3x,COCO-InstanceSegmentation,detr2,4,0.8029999999999999,118,7,person parking_meter handbag sports_ball pizza toilet mouse
+127,128,mask_rcnn_R_101_DC5_3x,COCO-InstanceSegmentation,detr2,19,0.8170000000000001,118,17,airplane bear zebra handbag frisbee skis snowboard kite baseball_glove bottle cup sandwich potted_plant keyboard cell_phone refrigerator hair_drier
+128,129,mask_rcnn_R_101_DC5_3x,COCO-InstanceSegmentation,detr2,47,0.841,118,14,truck horse backpack skis bottle wine_glass fork broccoli hot_dog pizza mouse vase scissors teddy_bear
+129,130,mask_rcnn_R_101_DC5_3x,COCO-InstanceSegmentation,detr2,36,0.8320000000000001,118,15,car bus boat stop_sign sheep backpack umbrella handbag surfboard cup bowl sandwich orange broccoli remote
+130,131,mask_rcnn_R_101_FPN_3x,COCO-InstanceSegmentation,detr2,21,0.7809999999999999,81,11,boat fire_hydrant sheep kite sandwich orange donut cake book scissors toothbrush
+131,132,mask_rcnn_R_101_FPN_3x,COCO-InstanceSegmentation,detr2,18,0.778,81,11,airplane backpack umbrella handbag fork knife pizza laptop keyboard cell_phone oven
+132,133,mask_rcnn_R_101_FPN_3x,COCO-InstanceSegmentation,detr2,28,0.789,81,11,boat stop_sign bench bird baseball_glove hot_dog cake dining_table remote sink clock
+133,134,mask_rcnn_R_101_FPN_3x,COCO-InstanceSegmentation,detr2,15,0.775,81,17,airplane fire_hydrant dog umbrella sports_ball baseball_glove surfboard bottle wine_glass cup spoon broccoli dining_table oven toaster clock teddy_bear
+134,135,mask_rcnn_R_101_FPN_3x,COCO-InstanceSegmentation,detr2,42,0.804,81,7,motorcycle cat tie sports_ball sandwich orange carrot
+135,136,mask_rcnn_R_50_C4_1x,COCO-InstanceSegmentation,detr2,2,0.8640000000000001,193,9,person bus umbrella baseball_glove skateboard carrot couch bed toaster
+136,137,mask_rcnn_R_50_C4_1x,COCO-InstanceSegmentation,detr2,37,0.8859999999999999,193,13,person stop_sign bench handbag suitcase banana hot_dog chair dining_table mouse remote refrigerator teddy_bear
+137,138,mask_rcnn_R_50_C4_1x,COCO-InstanceSegmentation,detr2,11,0.87,193,18,bus bird cat cow bear handbag tennis_racket fork spoon carrot hot_dog dining_table toilet mouse sink refrigerator clock toothbrush
+138,139,mask_rcnn_R_50_C4_1x,COCO-InstanceSegmentation,detr2,23,0.878,193,10,train boat stop_sign cat umbrella surfboard remote keyboard microwave oven
+139,140,mask_rcnn_R_50_C4_1x,COCO-InstanceSegmentation,detr2,44,0.89,193,14,parking_meter bench suitcase skis bottle donut couch potted_plant bed tv mouse book vase teddy_bear
+140,141,mask_rcnn_R_50_C4_3x,COCO-InstanceSegmentation,detr2,41,0.846,130,14,bicycle bench cow umbrella kite wine_glass knife sandwich orange carrot mouse toaster clock hair_drier
+141,142,mask_rcnn_R_50_C4_3x,COCO-InstanceSegmentation,detr2,12,0.8220000000000001,130,11,person motorcycle parking_meter sheep umbrella frisbee sandwich bed book vase toothbrush
+142,143,mask_rcnn_R_50_C4_3x,COCO-InstanceSegmentation,detr2,3,0.813,130,12,bicycle motorcycle bus cat dog cup bowl pizza microwave sink clock hair_drier
+143,144,mask_rcnn_R_50_C4_3x,COCO-InstanceSegmentation,detr2,17,0.826,130,17,car airplane boat dog sheep tie baseball_glove surfboard cup fork banana broccoli hot_dog pizza cell_phone teddy_bear toothbrush
+144,145,mask_rcnn_R_50_C4_3x,COCO-InstanceSegmentation,detr2,33,0.84,130,15,car airplane train cat umbrella skis baseball_bat wine_glass broccoli carrot bed toilet tv laptop microwave
+145,146,mask_rcnn_R_50_DC5_1x,COCO-InstanceSegmentation,detr2,1,0.733,62,20,train truck boat parking_meter umbrella tie suitcase skis snowboard baseball_bat baseball_glove skateboard wine_glass sandwich orange chair couch mouse sink toothbrush
+146,147,mask_rcnn_R_50_DC5_1x,COCO-InstanceSegmentation,detr2,39,0.78,62,14,bus bear umbrella baseball_bat baseball_glove spoon carrot couch bed mouse keyboard cell_phone oven hair_drier
+147,148,mask_rcnn_R_50_DC5_1x,COCO-InstanceSegmentation,detr2,20,0.758,62,13,truck cow bear giraffe frisbee sports_ball baseball_bat tennis_racket banana hot_dog couch remote microwave
+148,149,mask_rcnn_R_50_DC5_1x,COCO-InstanceSegmentation,detr2,47,0.789,62,16,bus boat horse cow elephant zebra skis baseball_glove fork bowl banana apple carrot donut oven scissors
+149,150,mask_rcnn_R_50_DC5_1x,COCO-InstanceSegmentation,detr2,43,0.785,62,16,stop_sign bench sheep umbrella skis snowboard baseball_bat surfboard tennis_racket bowl bed toilet tv refrigerator clock teddy_bear
+150,151,mask_rcnn_R_50_DC5_3x,COCO-InstanceSegmentation,detr2,41,0.865,155,16,stop_sign bench sheep backpack umbrella snowboard surfboard fork knife bowl dining_table keyboard oven sink hair_drier toothbrush
+151,152,mask_rcnn_R_50_DC5_3x,COCO-InstanceSegmentation,detr2,14,0.845,155,15,car truck traffic_light fire_hydrant cat kite apple orange broccoli carrot pizza potted_plant cell_phone microwave scissors
+152,153,mask_rcnn_R_50_DC5_3x,COCO-InstanceSegmentation,detr2,31,0.858,155,11,train stop_sign parking_meter bear kite skateboard banana orange chair book teddy_bear
+153,154,mask_rcnn_R_50_DC5_3x,COCO-InstanceSegmentation,detr2,25,0.853,155,16,bicycle motorcycle airplane truck boat fire_hydrant sheep bear suitcase skis bottle knife sandwich dining_table vase teddy_bear
+154,155,mask_rcnn_R_50_DC5_3x,COCO-InstanceSegmentation,detr2,3,0.836,155,11,car traffic_light parking_meter backpack skis kite skateboard fork laptop mouse keyboard
+155,156,mask_rcnn_R_50_FPN_1x,COCO-InstanceSegmentation,detr2,4,0.6920000000000001,31,16,motorcycle truck fire_hydrant dog backpack skateboard spoon chair potted_plant bed toilet laptop toaster sink scissors hair_drier
+156,157,mask_rcnn_R_50_FPN_1x,COCO-InstanceSegmentation,detr2,31,0.732,31,15,person train truck boat bird giraffe skateboard surfboard knife hot_dog donut bed laptop toaster scissors
+157,158,mask_rcnn_R_50_FPN_1x,COCO-InstanceSegmentation,detr2,35,0.737,31,14,car bench tie suitcase frisbee snowboard surfboard fork pizza dining_table microwave oven teddy_bear toothbrush
+158,159,mask_rcnn_R_50_FPN_1x,COCO-InstanceSegmentation,detr2,44,0.7490000000000001,31,15,airplane truck bird umbrella skis baseball_bat fork spoon bowl apple sandwich hot_dog remote toaster teddy_bear
+159,160,mask_rcnn_R_50_FPN_1x,COCO-InstanceSegmentation,detr2,14,0.708,31,11,train stop_sign parking_meter suitcase snowboard carrot pizza cake bed dining_table hair_drier
+160,161,mask_rcnn_X_101_32x8d_FPN_3x,COCO-InstanceSegmentation,detr2,49,0.8029999999999999,73,11,car truck traffic_light bench baseball_bat orange carrot pizza chair tv sink
+161,162,mask_rcnn_X_101_32x8d_FPN_3x,COCO-InstanceSegmentation,detr2,41,0.794,73,20,bicycle motorcycle parking_meter bird dog horse sheep elephant zebra backpack suitcase tennis_racket cup fork spoon broccoli couch toilet toaster scissors
+162,163,mask_rcnn_X_101_32x8d_FPN_3x,COCO-InstanceSegmentation,detr2,9,0.758,73,11,airplane dog handbag tie skis knife orange pizza cake couch keyboard
+163,164,mask_rcnn_X_101_32x8d_FPN_3x,COCO-InstanceSegmentation,detr2,20,0.7709999999999999,73,21,bus parking_meter bench cat dog sheep cow elephant zebra giraffe tie fork knife bowl sandwich hot_dog donut remote vase teddy_bear toothbrush
+164,165,mask_rcnn_X_101_32x8d_FPN_3x,COCO-InstanceSegmentation,detr2,32,0.785,73,16,bicycle parking_meter bench cat handbag tie frisbee snowboard kite baseball_bat wine_glass sandwich chair bed oven teddy_bear

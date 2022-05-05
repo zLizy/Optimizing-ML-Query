@@ -1,0 +1,166 @@
+,index,model,root,type,latency,probability,cost,#task,tasks
+0,1,yolov3,ultralytics/yolov3,OD,45,0.76,39,3,chair motorcycle sheep
+1,2,yolov3,ultralytics/yolov3,OD,48,0.764,39,6,bicycle cat dining_table motorcycle person tv
+2,3,yolov3,ultralytics/yolov3,OD,1,0.7,39,5,bicycle bottle chair cow dining_table
+3,4,yolov3,ultralytics/yolov3,OD,4,0.705,39,4,airplane car cat sheep
+4,5,yolov3,ultralytics/yolov3,OD,4,0.705,39,4,airplane bottle motorcycle person
+5,6,yolov5x,ultralytics/yolov5,OD,40,0.821,101,3,bottle sheep couch
+6,7,yolov5x,ultralytics/yolov5,OD,10,0.7909999999999999,101,3,dining_table horse couch
+7,8,yolov5x,ultralytics/yolov5,OD,20,0.802,101,4,car dining_table horse train
+8,9,yolov5x,ultralytics/yolov5,OD,22,0.804,101,2,boat horse
+9,10,yolov5x,ultralytics/yolov5,OD,37,0.818,101,3,bicycle couch train
+10,11,yolov5x6,ultralytics/yolov5,OD,24,0.7809999999999999,78,2,airplane chair
+11,12,yolov5x6,ultralytics/yolov5,OD,7,0.762,78,5,bottle horse motorcycle sheep couch
+12,13,yolov5x6,ultralytics/yolov5,OD,25,0.782,78,4,boat dog person sheep
+13,14,yolov5x6,ultralytics/yolov5,OD,25,0.782,78,3,bicycle bird tv
+14,15,yolov5x6,ultralytics/yolov5,OD,13,0.769,78,4,cow dining_table person couch
+15,16,yolov5m6,ultralytics/yolov5,OD,2,0.7240000000000001,54,3,bird cat dining_table
+16,17,yolov5m6,ultralytics/yolov5,OD,39,0.7709999999999999,54,4,bicycle motorcycle person couch
+17,18,yolov5m6,ultralytics/yolov5,OD,40,0.772,54,6,bottle bus cat horse motorcycle tv
+18,19,yolov5m6,ultralytics/yolov5,OD,24,0.753,54,2,bus couch
+19,20,yolov5m6,ultralytics/yolov5,OD,47,0.78,54,3,cat train tv
+20,21,nvidia_ssd,NVIDIA/DeepLearningExamples:torchhub,OD,25,0.8029999999999999,97,2,bicycle dog
+21,22,nvidia_ssd,NVIDIA/DeepLearningExamples:torchhub,OD,18,0.795,97,3,dog sheep train
+22,23,nvidia_ssd,NVIDIA/DeepLearningExamples:torchhub,OD,38,0.815,97,2,horse motorcycle
+23,24,nvidia_ssd,NVIDIA/DeepLearningExamples:torchhub,OD,26,0.804,97,1,bottle
+24,25,nvidia_ssd,NVIDIA/DeepLearningExamples:torchhub,OD,14,0.7909999999999999,97,1,potted_plant
+25,26,fcn_resnet50,pytorch/vision:v0.10.0,Seg,9,0.7290000000000001,51,3,airplane chair cow
+26,27,fcn_resnet50,pytorch/vision:v0.10.0,Seg,10,0.731,51,4,bicycle cow sheep couch
+27,28,fcn_resnet50,pytorch/vision:v0.10.0,Seg,21,0.745,51,1,chair
+28,29,fcn_resnet50,pytorch/vision:v0.10.0,Seg,17,0.74,51,4,bottle person couch tv
+29,30,fcn_resnet50,pytorch/vision:v0.10.0,Seg,6,0.725,51,1,cow
+30,31,fcn_resnet101,pytorch/vision:v0.10.0,Seg,16,0.843,151,3,boat cow sheep
+31,32,fcn_resnet101,pytorch/vision:v0.10.0,Seg,48,0.867,151,3,bird chair tv
+32,33,fcn_resnet101,pytorch/vision:v0.10.0,Seg,1,0.831,151,3,bottle chair dog
+33,34,fcn_resnet101,pytorch/vision:v0.10.0,Seg,19,0.845,151,5,bicycle boat cow dining_table train
+34,35,fcn_resnet101,pytorch/vision:v0.10.0,Seg,36,0.858,151,2,bottle bus
+35,36,deeplabv3_resnet50,pytorch/vision:v0.10.0,Seg,25,0.769,66,1,tv
+36,37,deeplabv3_resnet50,pytorch/vision:v0.10.0,Seg,30,0.775,66,4,boat bottle horse sheep
+37,38,deeplabv3_resnet50,pytorch/vision:v0.10.0,Seg,20,0.763,66,7,car dog horse motorcycle person potted_plant tv
+38,39,deeplabv3_resnet50,pytorch/vision:v0.10.0,Seg,20,0.763,66,1,airplane
+39,40,deeplabv3_resnet50,pytorch/vision:v0.10.0,Seg,15,0.757,66,6,boat bus chair cow dog potted_plant
+40,41,deeplabv3_resnet101,pytorch/vision:v0.10.0,Seg,40,0.795,75,5,airplane bicycle car cow motorcycle
+41,42,deeplabv3_resnet101,pytorch/vision:v0.10.0,Seg,33,0.7879999999999999,75,0,
+42,43,deeplabv3_resnet101,pytorch/vision:v0.10.0,Seg,2,0.752,75,1,airplane
+43,44,deeplabv3_resnet101,pytorch/vision:v0.10.0,Seg,10,0.762,75,4,boat cow horse potted_plant
+44,45,deeplabv3_resnet101,pytorch/vision:v0.10.0,Seg,33,0.7879999999999999,75,2,potted_plant tv
+45,46,deeplabv3_mobilenet_v3_large,pytorch/vision:v0.10.0,Seg,32,0.86,157,5,airplane boat bus dog person
+46,47,deeplabv3_mobilenet_v3_large,pytorch/vision:v0.10.0,Seg,11,0.8440000000000001,157,4,bottle chair couch train
+47,48,deeplabv3_mobilenet_v3_large,pytorch/vision:v0.10.0,Seg,24,0.8540000000000001,157,1,horse
+48,49,deeplabv3_mobilenet_v3_large,pytorch/vision:v0.10.0,Seg,36,0.863,157,3,boat car chair
+49,50,deeplabv3_mobilenet_v3_large,pytorch/vision:v0.10.0,Seg,12,0.845,157,1,bird
+50,51,faster_rcnn_R_101_C4_3x,COCO-Detection,detr2,29,0.7190000000000001,24,5,boat cow dining_table person train
+51,52,faster_rcnn_R_101_C4_3x,COCO-Detection,detr2,35,0.728,24,5,bicycle car person potted_plant couch
+52,53,faster_rcnn_R_101_C4_3x,COCO-Detection,detr2,1,0.6759999999999999,24,4,boat bus cat person
+53,54,faster_rcnn_R_101_C4_3x,COCO-Detection,detr2,1,0.6759999999999999,24,3,cat couch tv
+54,55,faster_rcnn_R_101_C4_3x,COCO-Detection,detr2,37,0.731,24,2,horse sheep
+55,56,faster_rcnn_R_101_DC5_3x,COCO-Detection,detr2,6,0.745,66,6,cat dog horse person potted_plant sheep
+56,57,faster_rcnn_R_101_DC5_3x,COCO-Detection,detr2,39,0.785,66,3,bottle cow person
+57,58,faster_rcnn_R_101_DC5_3x,COCO-Detection,detr2,41,0.787,66,3,bus person potted_plant
+58,59,faster_rcnn_R_101_DC5_3x,COCO-Detection,detr2,18,0.76,66,5,bottle cat chair cow dog
+59,60,faster_rcnn_R_101_DC5_3x,COCO-Detection,detr2,16,0.758,66,1,bus
+60,61,faster_rcnn_R_101_FPN_3x,COCO-Detection,detr2,5,0.836,153,4,airplane bicycle person couch
+61,62,faster_rcnn_R_101_FPN_3x,COCO-Detection,detr2,42,0.8640000000000001,153,4,airplane bus horse train
+62,63,faster_rcnn_R_101_FPN_3x,COCO-Detection,detr2,43,0.865,153,2,boat tv
+63,64,faster_rcnn_R_101_FPN_3x,COCO-Detection,detr2,32,0.857,153,4,bicycle motorcycle person tv
+64,65,faster_rcnn_R_101_FPN_3x,COCO-Detection,detr2,2,0.833,153,1,boat
+65,66,faster_rcnn_R_50_C4_1x,COCO-Detection,detr2,2,0.779,98,5,boat car cat couch train
+66,67,faster_rcnn_R_50_C4_1x,COCO-Detection,detr2,40,0.818,98,1,motorcycle
+67,68,faster_rcnn_R_50_C4_1x,COCO-Detection,detr2,42,0.82,98,4,bird cat cow dog
+68,69,faster_rcnn_R_50_C4_1x,COCO-Detection,detr2,36,0.8140000000000001,98,4,airplane dining_table dog horse
+69,70,faster_rcnn_R_50_C4_1x,COCO-Detection,detr2,39,0.8170000000000001,98,3,bird dog sheep
+70,71,faster_rcnn_R_50_C4_3x,COCO-Detection,detr2,12,0.747,61,3,car cat chair
+71,72,faster_rcnn_R_50_C4_3x,COCO-Detection,detr2,47,0.7879999999999999,61,3,bird bottle couch
+72,73,faster_rcnn_R_50_C4_3x,COCO-Detection,detr2,19,0.755,61,3,airplane boat cat
+73,74,faster_rcnn_R_50_C4_3x,COCO-Detection,detr2,28,0.7659999999999999,61,1,person
+74,75,faster_rcnn_R_50_C4_3x,COCO-Detection,detr2,1,0.732,61,4,bottle cow motorcycle train
+75,76,faster_rcnn_R_50_DC5_1x,COCO-Detection,detr2,15,0.782,88,4,airplane boat bus cat
+76,77,faster_rcnn_R_50_DC5_1x,COCO-Detection,detr2,36,0.805,88,3,bus car tv
+77,78,faster_rcnn_R_50_DC5_1x,COCO-Detection,detr2,13,0.78,88,5,boat bottle bus cat couch
+78,79,faster_rcnn_R_50_DC5_1x,COCO-Detection,detr2,43,0.8109999999999999,88,3,chair dog couch
+79,80,faster_rcnn_R_50_DC5_1x,COCO-Detection,detr2,21,0.789,88,3,bird horse potted_plant
+80,81,faster_rcnn_R_50_DC5_3x,COCO-Detection,detr2,12,0.7490000000000001,63,5,bicycle bird boat chair dining_table
+81,82,faster_rcnn_R_50_DC5_3x,COCO-Detection,detr2,5,0.74,63,8,airplane bottle car cat chair cow horse tv
+82,83,faster_rcnn_R_50_DC5_3x,COCO-Detection,detr2,7,0.743,63,2,bird dog
+83,84,faster_rcnn_R_50_DC5_3x,COCO-Detection,detr2,5,0.74,63,3,sheep couch tv
+84,85,faster_rcnn_R_50_DC5_3x,COCO-Detection,detr2,48,0.7909999999999999,63,2,bird person
+85,86,faster_rcnn_R_50_FPN_1x,COCO-Detection,detr2,4,0.764,83,3,airplane potted_plant train
+86,87,faster_rcnn_R_50_FPN_1x,COCO-Detection,detr2,13,0.775,83,3,bicycle bird cow
+87,88,faster_rcnn_R_50_FPN_1x,COCO-Detection,detr2,37,0.8009999999999999,83,3,cat horse potted_plant
+88,89,faster_rcnn_R_50_FPN_1x,COCO-Detection,detr2,41,0.805,83,5,airplane bicycle chair train tv
+89,90,faster_rcnn_R_50_FPN_1x,COCO-Detection,detr2,15,0.777,83,4,bird car potted_plant tv
+90,91,faster_rcnn_R_50_FPN_3x,COCO-Detection,detr2,16,0.799,102,7,bicycle bird boat bus cat chair motorcycle
+91,92,faster_rcnn_R_50_FPN_3x,COCO-Detection,detr2,21,0.804,102,3,cow person tv
+92,93,faster_rcnn_R_50_FPN_3x,COCO-Detection,detr2,36,0.818,102,3,airplane bus sheep
+93,94,faster_rcnn_R_50_FPN_3x,COCO-Detection,detr2,24,0.807,102,4,airplane motorcycle sheep tv
+94,95,faster_rcnn_R_50_FPN_3x,COCO-Detection,detr2,16,0.799,102,1,cow
+95,96,faster_rcnn_X_101_32x8d_FPN_3x,COCO-Detection,detr2,14,0.81,115,1,person
+96,97,faster_rcnn_X_101_32x8d_FPN_3x,COCO-Detection,detr2,22,0.8170000000000001,115,2,cat couch
+97,98,faster_rcnn_X_101_32x8d_FPN_3x,COCO-Detection,detr2,49,0.841,115,5,boat car cat potted_plant train
+98,99,faster_rcnn_X_101_32x8d_FPN_3x,COCO-Detection,detr2,6,0.802,115,3,bicycle cat dog
+99,100,faster_rcnn_X_101_32x8d_FPN_3x,COCO-Detection,detr2,42,0.835,115,8,bicycle boat cat chair dining_table horse motorcycle tv
+100,101,retinanet_R_101_FPN_3x,COCO-Detection,detr2,36,0.887,196,0,
+101,102,retinanet_R_101_FPN_3x,COCO-Detection,detr2,1,0.865,196,6,boat bus car dog motorcycle potted_plant
+102,103,retinanet_R_101_FPN_3x,COCO-Detection,detr2,32,0.885,196,1,bus
+103,104,retinanet_R_101_FPN_3x,COCO-Detection,detr2,6,0.8690000000000001,196,1,potted_plant
+104,105,retinanet_R_101_FPN_3x,COCO-Detection,detr2,31,0.884,196,6,bird car chair motorcycle person tv
+105,106,retinanet_R_50_FPN_1x,COCO-Detection,detr2,1,0.7020000000000001,40,5,chair dining_table couch train tv
+106,107,retinanet_R_50_FPN_1x,COCO-Detection,detr2,37,0.752,40,3,cat dining_table train
+107,108,retinanet_R_50_FPN_1x,COCO-Detection,detr2,35,0.7490000000000001,40,4,bottle car motorcycle train
+108,109,retinanet_R_50_FPN_1x,COCO-Detection,detr2,49,0.7659999999999999,40,5,airplane bottle motorcycle sheep train
+109,110,retinanet_R_50_FPN_1x,COCO-Detection,detr2,30,0.743,40,4,bus car horse tv
+110,111,retinanet_R_50_FPN_3x,COCO-Detection,detr2,4,0.754,75,2,car cat
+111,112,retinanet_R_50_FPN_3x,COCO-Detection,detr2,35,0.79,75,2,dog motorcycle
+112,113,retinanet_R_50_FPN_3x,COCO-Detection,detr2,43,0.799,75,4,bottle dining_table horse person
+113,114,retinanet_R_50_FPN_3x,COCO-Detection,detr2,14,0.7659999999999999,75,3,bottle horse potted_plant
+114,115,retinanet_R_50_FPN_3x,COCO-Detection,detr2,49,0.805,75,5,bicycle bus dining_table dog couch
+115,116,mask_rcnn_R_50_FPN_3x,COCO-InstanceSegmentation,detr2,40,0.8420000000000001,126,1,dining_table
+116,117,mask_rcnn_R_50_FPN_3x,COCO-InstanceSegmentation,detr2,22,0.8270000000000001,126,5,bird bus cow horse person
+117,118,mask_rcnn_R_50_FPN_3x,COCO-InstanceSegmentation,detr2,10,0.816,126,2,sheep tv
+118,119,mask_rcnn_R_50_FPN_3x,COCO-InstanceSegmentation,detr2,1,0.8079999999999999,126,5,bicycle chair horse motorcycle sheep
+119,120,mask_rcnn_R_50_FPN_3x,COCO-InstanceSegmentation,detr2,11,0.8170000000000001,126,1,cat
+120,121,mask_rcnn_R_101_C4_3x,COCO-InstanceSegmentation,detr2,44,0.764,43,3,bottle chair train
+121,122,mask_rcnn_R_101_C4_3x,COCO-InstanceSegmentation,detr2,24,0.7390000000000001,43,4,bicycle boat sheep train
+122,123,mask_rcnn_R_101_C4_3x,COCO-InstanceSegmentation,detr2,3,0.7090000000000001,43,7,bus car dining_table dog person sheep couch
+123,124,mask_rcnn_R_101_C4_3x,COCO-InstanceSegmentation,detr2,35,0.753,43,2,bottle horse
+124,125,mask_rcnn_R_101_C4_3x,COCO-InstanceSegmentation,detr2,36,0.754,43,4,bird bus dining_table potted_plant
+125,126,mask_rcnn_R_101_DC5_3x,COCO-InstanceSegmentation,detr2,31,0.828,118,2,potted_plant couch
+126,127,mask_rcnn_R_101_DC5_3x,COCO-InstanceSegmentation,detr2,4,0.8029999999999999,118,6,bird chair cow motorcycle potted_plant sheep
+127,128,mask_rcnn_R_101_DC5_3x,COCO-InstanceSegmentation,detr2,19,0.8170000000000001,118,3,airplane bird train
+128,129,mask_rcnn_R_101_DC5_3x,COCO-InstanceSegmentation,detr2,47,0.841,118,4,airplane bottle couch tv
+129,130,mask_rcnn_R_101_DC5_3x,COCO-InstanceSegmentation,detr2,36,0.8320000000000001,118,6,chair cow dog motorcycle person sheep
+130,131,mask_rcnn_R_101_FPN_3x,COCO-InstanceSegmentation,detr2,21,0.7809999999999999,81,5,bird car cow dog train
+131,132,mask_rcnn_R_101_FPN_3x,COCO-InstanceSegmentation,detr2,18,0.778,81,3,bicycle cat dining_table
+132,133,mask_rcnn_R_101_FPN_3x,COCO-InstanceSegmentation,detr2,28,0.789,81,3,bus car dog
+133,134,mask_rcnn_R_101_FPN_3x,COCO-InstanceSegmentation,detr2,15,0.775,81,4,bus car motorcycle person
+134,135,mask_rcnn_R_101_FPN_3x,COCO-InstanceSegmentation,detr2,42,0.804,81,1,potted_plant
+135,136,mask_rcnn_R_50_C4_1x,COCO-InstanceSegmentation,detr2,2,0.8640000000000001,193,4,boat bus car dog
+136,137,mask_rcnn_R_50_C4_1x,COCO-InstanceSegmentation,detr2,37,0.8859999999999999,193,3,bird bus car
+137,138,mask_rcnn_R_50_C4_1x,COCO-InstanceSegmentation,detr2,11,0.87,193,3,airplane bird sheep
+138,139,mask_rcnn_R_50_C4_1x,COCO-InstanceSegmentation,detr2,23,0.878,193,4,airplane bicycle bird bus
+139,140,mask_rcnn_R_50_C4_1x,COCO-InstanceSegmentation,detr2,44,0.89,193,2,boat dog
+140,141,mask_rcnn_R_50_C4_3x,COCO-InstanceSegmentation,detr2,41,0.846,130,0,
+141,142,mask_rcnn_R_50_C4_3x,COCO-InstanceSegmentation,detr2,12,0.8220000000000001,130,3,bottle chair person
+142,143,mask_rcnn_R_50_C4_3x,COCO-InstanceSegmentation,detr2,3,0.813,130,4,bicycle bottle dog train
+143,144,mask_rcnn_R_50_C4_3x,COCO-InstanceSegmentation,detr2,17,0.826,130,6,airplane bus car cow dog train
+144,145,mask_rcnn_R_50_C4_3x,COCO-InstanceSegmentation,detr2,33,0.84,130,5,boat cow horse couch tv
+145,146,mask_rcnn_R_50_DC5_1x,COCO-InstanceSegmentation,detr2,1,0.733,62,0,
+146,147,mask_rcnn_R_50_DC5_1x,COCO-InstanceSegmentation,detr2,39,0.78,62,1,boat
+147,148,mask_rcnn_R_50_DC5_1x,COCO-InstanceSegmentation,detr2,20,0.758,62,2,motorcycle train
+148,149,mask_rcnn_R_50_DC5_1x,COCO-InstanceSegmentation,detr2,47,0.789,62,1,bicycle
+149,150,mask_rcnn_R_50_DC5_1x,COCO-InstanceSegmentation,detr2,43,0.785,62,3,bird horse sheep
+150,151,mask_rcnn_R_50_DC5_3x,COCO-InstanceSegmentation,detr2,41,0.865,155,9,bicycle cat chair dining_table horse potted_plant sheep couch tv
+151,152,mask_rcnn_R_50_DC5_3x,COCO-InstanceSegmentation,detr2,14,0.845,155,2,boat sheep
+152,153,mask_rcnn_R_50_DC5_3x,COCO-InstanceSegmentation,detr2,31,0.858,155,3,bird car potted_plant
+153,154,mask_rcnn_R_50_DC5_3x,COCO-InstanceSegmentation,detr2,25,0.853,155,1,motorcycle
+154,155,mask_rcnn_R_50_DC5_3x,COCO-InstanceSegmentation,detr2,3,0.836,155,5,bird car dining_table dog tv
+155,156,mask_rcnn_R_50_FPN_1x,COCO-InstanceSegmentation,detr2,4,0.6920000000000001,31,3,dining_table motorcycle person
+156,157,mask_rcnn_R_50_FPN_1x,COCO-InstanceSegmentation,detr2,31,0.732,31,2,bus dining_table
+157,158,mask_rcnn_R_50_FPN_1x,COCO-InstanceSegmentation,detr2,35,0.737,31,1,airplane
+158,159,mask_rcnn_R_50_FPN_1x,COCO-InstanceSegmentation,detr2,44,0.7490000000000001,31,2,cow train
+159,160,mask_rcnn_R_50_FPN_1x,COCO-InstanceSegmentation,detr2,14,0.708,31,2,dining_table horse
+160,161,mask_rcnn_X_101_32x8d_FPN_3x,COCO-InstanceSegmentation,detr2,49,0.8029999999999999,73,3,bottle sheep couch
+161,162,mask_rcnn_X_101_32x8d_FPN_3x,COCO-InstanceSegmentation,detr2,41,0.794,73,3,bird chair dining_table
+162,163,mask_rcnn_X_101_32x8d_FPN_3x,COCO-InstanceSegmentation,detr2,9,0.758,73,3,chair dining_table potted_plant
+163,164,mask_rcnn_X_101_32x8d_FPN_3x,COCO-InstanceSegmentation,detr2,20,0.7709999999999999,73,3,bottle dog person
+164,165,mask_rcnn_X_101_32x8d_FPN_3x,COCO-InstanceSegmentation,detr2,32,0.785,73,4,airplane boat bus cow
