@@ -1,0 +1,14 @@
+# configuration file of yolov3 for outcome convert
+seed: 0
+
+count: 5
+
+latency_min: 1
+
+latency_max: 50
+
+prediction_min: 0.7
+#0.85, 0.7
+prediction_max: 1
+
+
