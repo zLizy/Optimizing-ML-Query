@@ -25,7 +25,7 @@ image/
 script*/
 results/script*
 
-
+!evaluation/models
 
 yolov3/
 
